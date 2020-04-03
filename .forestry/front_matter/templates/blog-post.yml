@@ -29,11 +29,11 @@ fields:
     time_format: 
     display_utc: false
   default: now
-- name: img
+- name: hero_image
   type: file
   config:
     maxSize: '10'
-  label: img
+  label: hero_image
   default: "/content/images/elcarito-CRn-_80z4SE-unsplash.jpg"
   hidden: true
 pages:
