@@ -2,9 +2,9 @@
   "description": "<p>This site is basic tool for collaborating copywriters on texts for korona-gov.sk</p>",
   "cta": "<p></p>",
   "contact": {
-    "email": "info@forestry.io",
-    "twitter_handle": "forestryio",
-    "github_handle": "forestryio"
+    "email": "",
+    "twitter_handle": "",
+    "github_handle": ""
   },
   "background_color": "#F7F7F7"
 }
