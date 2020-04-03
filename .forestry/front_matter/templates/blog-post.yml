@@ -30,5 +30,4 @@ fields:
     display_utc: false
   default: now
 pages:
-- content/posts/an-essay-on-walking.md
 - content/posts/example-text.md
