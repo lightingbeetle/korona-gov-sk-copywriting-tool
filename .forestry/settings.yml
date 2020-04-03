@@ -14,6 +14,12 @@ sections:
   new_doc_ext: md
   templates:
   - blog-post
+- type: heading
+  label: General Config
+- type: document
+  path: config.json
+  label: Site Info
+  read_only: true
 - type: document
   path: content/data/authors.yaml
   label: Author List
@@ -21,12 +27,6 @@ sections:
 - type: document
   path: content/data/info.json
   label: Info Page
-- type: heading
-  label: General Config
-- type: document
-  path: config.json
-  label: Site Info
-  read_only: true
 upload_dir: content/images
 public_path: "/content/images"
 front_matter_path: ''
