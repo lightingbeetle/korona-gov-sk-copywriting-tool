@@ -30,4 +30,5 @@ fields:
     display_utc: false
   default: now
 pages:
+- content/posts/content-structure-article.md
 - content/posts/example-text.md
