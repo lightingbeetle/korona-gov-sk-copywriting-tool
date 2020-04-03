@@ -18,7 +18,7 @@ fields:
       path: authors
   label: author
   description: Enter author of post
-  hidden: false
+  hidden: true
 - name: date
   type: datetime
   label: date
@@ -29,6 +29,13 @@ fields:
     time_format: 
     display_utc: false
   default: now
+- name: img
+  type: file
+  config:
+    maxSize: '10'
+  label: img
+  default: "/content/images/elcarito-CRn-_80z4SE-unsplash.jpg"
+  hidden: true
 pages:
 - content/posts/content-structure-article.md
 - content/posts/example-text.md
