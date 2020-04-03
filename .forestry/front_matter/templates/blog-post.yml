@@ -9,7 +9,7 @@ fields:
   type: select
   default: ''
   config:
-    required: true
+    required: false
     options: []
     source:
       type: documents
@@ -18,6 +18,7 @@ fields:
       path: authors
   label: author
   description: Enter author of post
+  hidden: true
 - name: date
   type: datetime
   label: date
