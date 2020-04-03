@@ -35,7 +35,7 @@ fields:
     maxSize: '10'
   label: hero_image
   default: "/content/images/elcarito-CRn-_80z4SE-unsplash.jpg"
-  hidden: true
+  hidden: false
 pages:
 - content/posts/content-structure-article.md
 - content/posts/example-text.md
